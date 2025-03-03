@@ -81,7 +81,7 @@ export default function TopNav({ title = "Welcome to DigiGoldPay" }) {
         backgroundColor: "#FFD709",
       }}
     >
-      <div className="container-fluid " style={{maxHeight:"10vh"}}>
+      <div className="container-fluid " >
         <a className="navbar-brand" href="#" onClick={handleNavClick}>
           <img src={imageSrcc} style={{width:30, height:30,marginRight:5}}/>
           DigiGoldPay</a>
@@ -222,4 +222,5 @@ export default function TopNav({ title = "Welcome to DigiGoldPay" }) {
       <Footer />
     </div>
   );
-}
+
+} 
