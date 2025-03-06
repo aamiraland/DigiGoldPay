@@ -163,15 +163,16 @@ export default function TopNav({ title = "Welcome to DigiGoldPay" }) {
             
 
             <button
-              onClick={() => {
-                const userAgent = navigator.userAgent || navigator.vendor || window.opera;
-              
-                if (/android/i.test(userAgent)) {
-                  window.location.href = "https://drive.google.com/uc?export=download&id=1XmdqBclbdmIdXi_S21dNZg3qWrWaDtF_";
-                } else {
-                  alert("This app is available only for Android devices. App for other devices coming soon!");
-                }
-              }}
+             onClick={() => {
+              const userAgent = navigator.userAgent || navigator.vendor || window.opera;
+            
+              if (/android/i.test(userAgent)) {
+                window.location.href = "https://drive.google.com/uc?export=download&id=12huS6q_jM30M_kkBNQuT4pYbQrT2Vk9V";
+              } else {
+                alert("This app is available only for Android devices. App for other devices coming soon!");
+              }
+            }}
+            
               
               
               style={{ backgroundColor: "#FFD709", color: "black", display: "flex", alignItems: "center", gap: "5px", padding: "15px 4.5vw", borderRadius: "8px", border: "none", fontSize: "20px" }}>
